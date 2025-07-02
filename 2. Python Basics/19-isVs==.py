@@ -1,0 +1,30 @@
+# ==
+
+print(True == 1)
+print('' == 1)
+print('1' == 1)
+print([] == 1)
+print(10 == 10.0)
+print(None == 1)
+print(() == 1)
+print({} == 1)
+print(b'' == 1)
+print(set() == 1)
+print(bytearray(b'') == 1)
+print(memoryview(b'') == 1)
+
+print("\n is")
+
+# is
+print(True is True)
+print('' is 1)
+print('1' is 1)
+print([] is [])
+print(10 is 10.0)
+print(None is 1)
+print(() is 1)
+print({} is 1)
+print(b'' is 1)
+print(set() is 1)
+print(bytearray(b'') is 1)
+print(memoryview(b'') is 1)
