@@ -9,7 +9,7 @@ for value in some_list:
 print(duplicates)
 
 
-#Solution:
+# Solution by Comprehensions:
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
-duplicates = list(set([x for x in some_list if some_list.count(x) > 1]))
-print(duplicates)
+duplicates2 = list({x for x in some_list if some_list.count(x) > 1})
+print(duplicates2)
